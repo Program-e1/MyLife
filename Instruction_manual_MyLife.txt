@@ -1,0 +1,10 @@
+Description => are you tired of other people prying into your personal life? And you keep your own personal diary? Then this program is made especially for you. Create your own personal records and edit them. Don't worry - all entries are password-encrypted. The program has no graphical interface, it will be attached a file with the control commands. Each of your diaries is a database consisting of sections where your entries are stored, each entry has its own unique name. I hope that this utility will simplify your life a little. And you do not need anything to get it, just leave a star, please. ; -).
+
+List of commands:
+1) The creation of the diary (the number of sections is unlimited) => MyLife.exe -new my_name_diary password section_1 section_2 section_3 
+2) Adding a new section to your diary (the number of sections is unlimited) => MyLife.exe -new_table my_name_diary.aes password section_4
+3) Deleting a section => MyLife.exe -del_table my_name_diary.aes password
+4) New record => MyLife.exe -w my_name_diary.aes password
+5) Reading records => MyLife.exe -r my_name_diary.aes password
+6) Record deletion => MyLife.exe -d my_name_diary.aes password
+7) Editing an entry => MyLife.exe -edit my_name_diary.aes password
