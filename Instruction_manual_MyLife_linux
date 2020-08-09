@@ -1,0 +1,13 @@
+сDescription => are you tired of other people prying into your personal life? And you keep your own personal diary? Then this program is made especially for you. Create your own personal records and edit them. Don't worry - all entries are password-encrypted. The program has no graphical interface, it will be attached a file with the control commands. Each of your diaries is a database consisting of sections where your entries are stored, each entry has its own unique name. I hope that this utility will simplify your life a little. And you do not need anything to get it, just leave a star, please. ; -).
+
+List of commands:
+1) The creation of the diary (the number of sections is unlimited) => python3 MyLife.py -new my_name_diary password section_1 section_2 section_3 
+2) Adding a new section to your diary (the number of sections is unlimited) => python3 MyLife.py -new_table my_name_diary.aes password section_4
+3) Deleting a section => python3 MyLife.py -del_table my_name_diary.aes password
+4) New record => python3 MyLife.py -w my_name_diary.aes password
+5) Reading records => python3 MyLife.py -r my_name_diary.aes password
+6) Record deletion => python3 MyLife.py -d my_name_diary.aes password
+7) Editing an entry => python3 MyLife.py -edit my_name_diary.aes password
+8) Encryption function => python3 MyLife.py -crypt my_name_diary.db password
+
+Attention to use function # 7, the xsel extension is required.
